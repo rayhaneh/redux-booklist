@@ -1,3 +1,7 @@
-export default function() {
-  return { title: 'javascript the good parts.' }
+export default function(state = null, action) {
+  switch (action.type) {
+    case 'BOOK_SELECTED':
+      return action.payload
+  }
+  return state
 }
