@@ -1,14 +1,7 @@
-# Introduction
-
 This repo contains book list assignment of [Modern React with Redux](https://www.udemy.com/react-redux/learn/v4/overview) course.
 
-### Getting Started
-Checkout this repo, install dependencies, then start the gulp process with the following:
+### First Method
+App is component, bookList and bookDetails are containers.
 
-```
-> git clone git@github.com:rayhaneh/redux-booklist.git
-> cd redux-booklist
-> npm install
-> npm start
-```
-
+### Second Method
+App is container, bookList and bookDetails are components.
